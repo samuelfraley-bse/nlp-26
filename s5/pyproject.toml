@@ -1,0 +1,23 @@
+[project]
+name = "session5_dependencies"
+version = "0.1.0"
+description = "Dependencies for session5"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "pip",
+  "seaborn",
+  "matplotlib",
+  "nltk",
+  "numpy",
+  "pandas",
+  "scikit-learn",
+  "spacy",
+  "tqdm",
+]
+
+[tool.uv]
+dev-dependencies = [
+  "ipykernel",
+  "jupyter",
+]
